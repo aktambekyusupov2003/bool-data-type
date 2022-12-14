@@ -1,15 +1,15 @@
 /*
     Create function func
-    Check the logic "The variable "a" is an even number"
+       "a" is an even number"
     Args:
         a: int
     Returns:
         bool
     */
-bool mashq(int a) {
-  return a > 35;
+bool func(int a) {
+  return a % 6 == 0;
 }
 
 void main() {
-  print(mashq(35));
+  print(func(0));
 }
