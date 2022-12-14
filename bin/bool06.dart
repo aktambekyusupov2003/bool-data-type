@@ -6,5 +6,10 @@
     Returns:
         bool
     */
+bool mashq(int a) {
+  return a > 35;
+}
 
-void main() {}
+void main() {
+  print(mashq(35));
+}
