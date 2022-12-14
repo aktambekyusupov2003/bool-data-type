@@ -8,12 +8,12 @@
     */
 
 bool func(int a) {
-  return ((a) == int);
+  return a >= 0;
 }
 
 void main() {
   // print(func(45));
   //  int double string
-  int son = 5;
-  print(son);
+
+  print(func(5));
 }
