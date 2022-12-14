@@ -3,5 +3,5 @@ bool func(int a) {
 }
 
 void main() {
-  print(func(7));
+  print(func(8));
 }
