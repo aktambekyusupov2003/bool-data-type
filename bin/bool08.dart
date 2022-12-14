@@ -7,4 +7,13 @@
         bool
     */
 
-void main() {}
+bool func(int a) {
+  return ((a) == int);
+}
+
+void main() {
+  // print(func(45));
+  //  int double string
+  int son = 5;
+  print(son);
+}
